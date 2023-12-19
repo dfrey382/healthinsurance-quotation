@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Dsc\DSCQuotation;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class DSCQuotationPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'healthinsurance-quotation';
     }
 
     public function register(Panel $panel): void

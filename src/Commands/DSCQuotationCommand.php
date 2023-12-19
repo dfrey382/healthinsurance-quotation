@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Dsc\DSCQuotation\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DSCQuotationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'healthinsurance-quotation';
 
     public $description = 'My command';
 
